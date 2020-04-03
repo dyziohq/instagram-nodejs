@@ -149,7 +149,7 @@ module.exports = class Instagram {
 
   getUserFollowers(userId, endCursor, count, followersCounter, selfSelf) {
     const self = this;
-    const MAX_SAMPLE = 300;
+    const MAX_SAMPLE = 200;
 
     if (!selfSelf) { self.userIdFollowers[userId] = []; }
 
